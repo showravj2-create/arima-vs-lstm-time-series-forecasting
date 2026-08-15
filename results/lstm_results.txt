@@ -1,0 +1,20 @@
+LSTM Forecasting Results
+=======================
+
+Dataset: International Migration Estimates
+Forecast horizon: 12 months
+Evaluation period: Final 12 months of the dataset
+
+Model:
+LSTM with 50 hidden units
+
+Lookback window: 12 months
+Optimizer: Adam
+Loss function: Mean Squared Error
+Epochs: 30
+Batch size: 16
+
+Data preprocessing:
+MinMaxScaler fitted only on training data
+
+RMSE: 9.49
