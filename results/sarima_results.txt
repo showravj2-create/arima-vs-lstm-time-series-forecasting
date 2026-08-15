@@ -1,0 +1,11 @@
+SARIMA Forecasting Results
+==========================
+
+Dataset: International Migration Estimates
+Forecast horizon: 12 months
+Evaluation period: Final 12 months of the dataset
+
+Model:
+SARIMA(1,1,1)(1,1,1,12)
+
+RMSE: 4.78
