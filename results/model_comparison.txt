@@ -1,0 +1,13 @@
+SARIMA vs LSTM Forecasting Comparison
+=====================================
+
+Dataset: International Migration Estimates
+Forecast horizon: Final 12 months
+
+SARIMA RMSE: 4.78
+LSTM RMSE: 9.49
+
+SARIMA achieved the lower RMSE and therefore
+performed better on the 12-month holdout period.
+
+RMSE Difference: 4.71
